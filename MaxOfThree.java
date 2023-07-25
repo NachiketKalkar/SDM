@@ -9,6 +9,8 @@ class MaxOfThree{
         b =sc.nextInt();
         c=sc.nextInt();
         int sum=a+b+c;
-        System.out.println("sum="+sum);
+        System.out.println("sum = "+sum);
+        int avg=sum/3;
+        System.out.println("Average = "+avg);
     }
 }
